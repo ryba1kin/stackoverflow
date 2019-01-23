@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1548286357969" stop="1548286471444" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>задание со стековерфлоу</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1548286358213" stop="1548286471149" status="passed">
+            <name>Тестирование стековерфлоу</name>
+            <title>Тестирование стековерфлоу</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1548286378241" stop="1548286388885" status="passed">
+                    <name>Когда пользователь переходит на внешний ресурс: "http://stackoverflow.com/"</name>
+                    <title>Когда пользователь переходит на внешний ресурс: "http://stackoverflow.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1548286388886" stop="1548286399674" status="passed">
+                    <name>И в строку поиска статей вводит значение "webdriver"</name>
+                    <title>И в строку поиска статей вводит значение "webdriver"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1548286399675" stop="1548286401140" status="passed">
+                    <name>Тогда проверяет, что в каждом результате представлено слово "webdriver"</name>
+                    <title>Тогда проверяет, что в каждом результате представлено слово "webdriver"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1548286401140" stop="1548286466602" status="passed">
+                    <name>И в каждом обсуждении из выборки заголовок обсуждения соответствует теме</name>
+                    <title>И в каждом обсуждении из выборки заголовок обсуждения соответствует теме</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1548286466603" stop="1548286467586" status="passed">
+                    <name>К тому же переходит в раздел "Tags"</name>
+                    <title>К тому же переходит в раздел "Tags"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1548286467586" stop="1548286468926" status="passed">
+                    <name>И в строку поиска тегов вводит значение "webdriver"</name>
+                    <title>И в строку поиска тегов вводит значение "webdriver"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1548286468926" stop="1548286468975" status="passed">
+                    <name>Тогда проверяет, что в результате присутствуют элементы содержащее слово "webdriver"</name>
+                    <title>Тогда проверяет, что в результате присутствуют элементы содержащее слово "webdriver"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1548286468976" stop="1548286470395" status="passed">
+                    <name>Когда пользователь находит в результатах тэг по точному совпадению поискового запроса и переходит в него</name>
+                    <title>Когда пользователь находит в результатах тэг по точному совпадению поискового запроса и переходит в него</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1548286470396" stop="1548286470459" status="passed">
+                    <name>Тогда проверяет, что после перехода отображаются обсуждения помеченные тэгом "webdriver"</name>
+                    <title>Тогда проверяет, что после перехода отображаются обсуждения помеченные тэгом "webdriver"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Тестирование стековерфлоу"/>
+                <label name="feature" value="задание со стековерфлоу"/>
+                <label name="host" value="ZVERDVD-EAQCG0R"/>
+                <label name="thread" value="7588@ZVERDVD-EAQCG0R.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="задание со стековерфлоу"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
